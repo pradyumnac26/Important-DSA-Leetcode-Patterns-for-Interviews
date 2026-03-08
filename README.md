@@ -5,8 +5,8 @@ This repository contains important topic wise problems and patterns for DSA inte
 
 | Problem | Pattern |
 |--------|--------|
-| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Multi-Source BFS |
-| [01 Matrix](https://leetcode.com/problems/01-matrix/) | Multi-Source BFS |
+| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Multi-Source BFS spread and track time  |
+| [01 Matrix](https://leetcode.com/problems/01-matrix/) | Shortest distance Multi-Source BFS |
 
 
 ## Flood Fill
