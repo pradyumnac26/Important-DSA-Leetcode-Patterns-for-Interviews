@@ -12,9 +12,11 @@ This repository contains important topic wise problems and patterns for DSA inte
 
 | Problem | Pattern |
 |--------|--------|
+| [Shortest Path in a Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Shortest path BFS on explicit grid |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Shortest path BFS on implicit graph |
 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Shortest path BFS + backtracking on implicit graph |
 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | Shortest path BFS on implicit graph |
+| [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | Shortest path BFS on implicit graph |
 
 
 ## Flood Fill
