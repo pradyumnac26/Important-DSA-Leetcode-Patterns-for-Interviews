@@ -8,6 +8,13 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Multi-Source BFS spread and track time  |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Shortest distance Multi-Source BFS |
 
+## Shortest Path BFS 
+
+| Problem | Pattern |
+|--------|--------|
+| [Word Ladder](https://leetcode.com/problems/word-ladder/) | Shortest path BFS on implicit graph |
+| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Shortest path BFS + backtracking on implicit graph |
+
 
 ## Flood Fill
 
