@@ -4,11 +4,13 @@ This repository contains important topic wise problems and patterns for DSA inte
 ## Multi-Source BFS 
 
 
-## Flood Fill 
-| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Classic Flood Fill |
-| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Flood Fill from Boundary / Boundary DFS |
-| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Boundary Flood Fill |
+## Flood Fill
 
+| Problem | Pattern |
+|--------|--------|
+| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Classic Flood Fill |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Flood Fill from Boundary |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Flood Fill from Boundary |
 
 ## Matrix with Row–Column Tracking
 - https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/
