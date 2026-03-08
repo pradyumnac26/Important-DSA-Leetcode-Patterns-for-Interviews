@@ -17,6 +17,14 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Flood Fill from Boundary |
 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Flood Fill from Boundary |
 
+## Connected Components
+
+| Problem | Pattern |
+|--------|--------|
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Start DFS on every unvisited cell and count |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Start DFS on every unvisited node and count |
+| [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Start DFS on every unvisited node and count |
+
 ## Matrix with Row–Column Tracking
 
 | Problem | Pattern |
