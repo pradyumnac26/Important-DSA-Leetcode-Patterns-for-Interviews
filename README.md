@@ -1,6 +1,19 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
 
+## Topological Sort
+
+| Problem | Pattern |
+|--------|--------|
+| [Course Schedule](https://leetcode.com/problems/course-schedule/) | Detect cycle in directed graph using topological sort |
+
+
+| Problem | Pattern |
+|--------|--------|
+| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Multi-Source BFS spread and track time  |
+| [01 Matrix](https://leetcode.com/problems/01-matrix/) | Shortest distance Multi-Source BFS |
+
+
 ## Multi-Source BFS
 
 | Problem | Pattern |
