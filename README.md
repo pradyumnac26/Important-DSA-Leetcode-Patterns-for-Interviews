@@ -7,6 +7,7 @@ This repository contains important topic wise problems and patterns for DSA inte
 |--------|--------|
 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Detect cycle in directed graph using topological sort |
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Return topological ordering of directed graph |
+| [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Peel leaves layer by layer using topological sort style trimming |
 
 
 
