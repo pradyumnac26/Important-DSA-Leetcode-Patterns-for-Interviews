@@ -6,6 +6,8 @@ This repository contains important topic wise problems and patterns for DSA inte
 | Problem | Pattern |
 |--------|--------|
 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Detect cycle in directed graph using topological sort |
+| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Return topological ordering of directed graph |
+
 
 
 
