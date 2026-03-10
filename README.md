@@ -52,9 +52,10 @@ This repository contains important topic wise problems and patterns for DSA inte
 
 | Problem | Pattern |
 |--------|--------|
+| [Unique Paths](https://leetcode.com/problems/unique-paths/) | DFS + memoization for number of ways from each cell |
 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | DFS + memoization for longest path starting from each cell |
 | [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) | DFS + memoization for count of paths starting from each cell |
-| [Unique Paths](https://leetcode.com/problems/unique-paths/) | DFS + memoization for number of ways from each cell |
+
 
 ## Matrix with Row–Column Tracking
 
