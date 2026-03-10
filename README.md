@@ -9,7 +9,7 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Return topological ordering of directed graph |
 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Peel leaves layer by layer using topological sort style trimming |
 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | topological sort from terminal nodes |
-| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | Build graph from character order and return topological ordering |
+| [Alien Dictionary](https://neetcode.io/problems/foreign-dictionary/question?list=neetcode150) | Build graph from character order and return topological ordering |
 
 
 
