@@ -64,3 +64,10 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Matrix Row–Column Tracking |
 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Matrix Row–Column Tracking |
 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Matrix Row–Column Tracking |
+
+
+## Design Questions 
+| Problem | Pattern |
+|--------|--------|
+| [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | LRu Cache design | 
+| [Design Twitter](https://leetcode.com/problems/design-twitter/description/) | Design twitter feed |
