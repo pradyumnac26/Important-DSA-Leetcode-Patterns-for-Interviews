@@ -1,13 +1,27 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
-## Longest Increasing Subsequence
+## Longest Increasing Subsequence Family
 
 | Problem | Pattern |
 |--------|--------|
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Classic LIS DP |
 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | LIS length + count DP |
 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 2D LIS reduced to 1D LIS on heights after sorting by width asc and height desc |
+| [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/) | Largest Divisible Subset → Sort + LIS-style DP on divisibility condition
+| 
 
+
+## Longest Common Subsequence Family
+
+| Problem | Pattern |
+|--------|--------|
+| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Classic 2D DP on two strings |
+| Print Longest Common Subsequence | LCS + reconstruction from DP table |
+| [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) | 2D DP, contiguous match (reset to 0 on mismatch) |
+| [Minimum Insertions or Deletions to Convert String A to B](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | n + m - (2 * LCS) |
+| [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | n + m - LCS / reconstruction |
+| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | LCS(s, reverse(s)) |
+| [Minimum Insertions to Make String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | n - LPS |
 
 
 
