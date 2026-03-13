@@ -1,5 +1,13 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
+## Palindromic Expansion around Center
+| Problem | Pattern |
+|--------|--------|
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Expand around center, count palindromes from every index |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Expand around center, track max length palindrome |
+
+
+
 ## Longest Increasing Subsequence Family
 
 | Problem | Pattern |
