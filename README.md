@@ -1,5 +1,14 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
+## Longest Increasing Subsequence
+
+| Problem | Pattern |
+|--------|--------|
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Classic LIS DP |
+| [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | LIS length + count DP |
+
+
+
 
 ## Topological Sort
 
