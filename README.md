@@ -87,6 +87,13 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Unbounded knapsack, count combinations |
 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Unbounded knapsack, minimize count |
 
+## DP on Squares 
+
+| Problem | Pattern |
+|--------|--------|
+| [Maximal Square](https://leetcode.com/problems/maximal-square/) | Square ending at cell = 1 + min(top, left, diagonal) |
+| [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Same recurrence as maximal squares, sum all dp cells |
+
 
 ## Matrix with Row–Column Tracking
 
