@@ -56,6 +56,13 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | DFS + memoization for longest path starting from each cell |
 | [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) | DFS + memoization for count of paths starting from each cell |
 
+## 1D DP Unbounded Knapsack
+| Problem | Pattern |
+|--------|--------|
+| [Coin Change](https://leetcode.com/problems/coin-change/) | Unbounded knapsack, minimize coins |
+| [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Unbounded knapsack, count combinations |
+| [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Unbounded knapsack, minimize count |
+
 
 ## Matrix with Row–Column Tracking
 
