@@ -6,7 +6,7 @@ This repository contains important topic wise problems and patterns for DSA inte
 |--------|--------|
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Classic LIS DP |
 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | LIS length + count DP |
-| Russian Doll Envelopes(https://leetcode.com/problems/russian-doll-envelopes/) | 2D LIS reduced to 1D LIS on heights after sorting by width asc and height desc |
+| [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 2D LIS reduced to 1D LIS on heights after sorting by width asc and height desc |
 
 
 
