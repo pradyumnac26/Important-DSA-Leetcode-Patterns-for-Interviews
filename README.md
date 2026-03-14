@@ -1,5 +1,11 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
+
+## Priority Queue
+| Problem | Pattern |
+|--------|--------|
+| [Reorganize Strings](https://leetcode.com/problems/reorganize-string/description/) | Max Heap + Greedy + Hold Previous |
+
 ## Palindromic Expansion around Center
 | Problem | Pattern |
 |--------|--------|
