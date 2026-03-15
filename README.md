@@ -1,5 +1,11 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
+## Binary Search in Rotated Sorted Array 
+| Problem | Pattern |
+|--------|--------|
+| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Binary Search + Identify Sorted Half |
+| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search + Identify Sorted Half + Shrink Bounds When `left == mid == right` |
+
 
 ## Priority Queue
 | Problem | Pattern |
