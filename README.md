@@ -5,6 +5,7 @@ This repository contains important topic wise problems and patterns for DSA inte
 |--------|--------|
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Binary Search + Identify Sorted Half |
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search + Identify Sorted Half + Shrink Bounds When `left == mid == right` |
+| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | If left half sorted → `ans = arr[low]` → go right, `else ans = arr[mid]` → go left |
 
 
 ## Priority Queue
