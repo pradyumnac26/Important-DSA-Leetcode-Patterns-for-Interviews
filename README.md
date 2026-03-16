@@ -7,6 +7,13 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search + Identify Sorted Half + Shrink Bounds When `left == mid == right` |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | If left half sorted → `ans = arr[low]` → go right, `else ans = arr[mid]` → go left |
 
+## Binary Search on Answers
+| Problem | Pattern |
+|--------|--------|
+| [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Pick `mid` speed → check if Koko can finish in `h` hours → if yes try smaller speed, else increase speed |
+| [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) | Pick `mid` capacity → check if all packages can be shipped within `days` → if yes try smaller capacity, else increase capacity |
+| [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/) | Pick `mid` divisor → compute total rounded-up divisions → if within threshold try smaller divisor, else increase divisor |
+| [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/) | Pick `mid` day → check how many bouquets can be formed by that day → if enough try smaller day, else increase day |
 
 ## Priority Queue
 | Problem | Pattern |
