@@ -1,5 +1,10 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
+## Intervals 
+| Problem | Pattern |
+|--------|--------|
+| [Insert Interval](https://leetcode.com/problems/insert-interval/) | Since the intervals are already sorted, First add all left-side non-overlapping intervals where intervals[i][1] < newInterval[0], then merge all overlapping intervals where `intervals[i][0] <= newInterval[1]`, and finally add the remaining right-side non-overlapping intervals.| 
+
 ## Binary Search in Rotated Sorted Array 
 | Problem | Pattern |
 |--------|--------|
