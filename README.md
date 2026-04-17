@@ -8,6 +8,8 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [non-overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | We sort by end time because when two intervals overlap, keeping the one that finishes earlier leaves more room for the remaining intervals, which helps minimize removals. and whenever the current interval starts before last_end, it overlaps so we remove it; otherwise, we keep it and update `last_end = end` | 
 | [Meeting Rooms 2](https://neetcode.io/problems/meeting-schedule-ii/question) | Use a sweep line approach by sorting all start times and end times separately, then move two pointers through them, increasing the active room count when a meeting starts before the earliest current meeting ends and decreasing it when a meeting ends, while tracking the maximum active count as the minimum number of rooms required.|
 | [Minimum Number of Platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | Use the same sweep line idea by sorting all train arrival and departure times separately, then move two pointers through them, increasing the platform count when a train arrives before the earliest departing train leaves and decreasing it when a train departs, while tracking the maximum active count as the minimum number of platforms required. |
+| [My Calender II](https://leetcode.com/problems/my-calendar-ii/description/?envType=problem-list-v2&envId=52dlem1s) | |
+| [Minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) | | 
 
 ## Binary Search in Rotated Sorted Array 
 | Problem | Pattern |
