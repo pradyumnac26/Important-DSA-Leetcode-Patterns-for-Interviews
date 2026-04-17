@@ -133,6 +133,12 @@ This repository contains important topic wise problems and patterns for DSA inte
 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Square ending at cell = 1 + min(top, left, diagonal) |
 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Same recurrence as maximal squares, sum all dp cells |
 
+## Famous Matrix Problems 
+| Problem | Pattern |
+|--------|--------|
+| Rotate Image | First transpose the matrix by swapping `matrix[i][j]` with `matrix[j][i]`, then reverse each row to rotate the matrix 90° clockwise in-place. |
+| Spiral Matrix | Use four boundaries `top`, `bottom`, `left`, and `right`, then traverse in spiral order by moving left → right, top → bottom, right → left, and bottom → top, shrinking the boundaries after each pass. |
+
 
 ## Matrix with Row–Column Tracking
 
