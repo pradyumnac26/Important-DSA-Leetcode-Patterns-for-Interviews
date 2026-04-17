@@ -136,8 +136,8 @@ This repository contains important topic wise problems and patterns for DSA inte
 ## Famous Matrix Problems 
 | Problem | Pattern |
 |--------|--------|
-| Rotate Image | First transpose the matrix by swapping `matrix[i][j]` with `matrix[j][i]`, then reverse each row to rotate the matrix 90° clockwise in-place. |
-| Spiral Matrix | Use four boundaries `top`, `bottom`, `left`, and `right`, then traverse in spiral order by moving left → right, top → bottom, right → left, and bottom → top, shrinking the boundaries after each pass. |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | First transpose the matrix by swapping `matrix[i][j]` with `matrix[j][i]`, then reverse each row to rotate the matrix 90° clockwise in-place. |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Use four boundaries `top`, `bottom`, `left`, and `right`, then traverse in spiral order by moving left → right, top → bottom, right → left, and bottom → top, shrinking the boundaries after each pass. |
 
 
 ## Matrix with Row–Column Tracking
