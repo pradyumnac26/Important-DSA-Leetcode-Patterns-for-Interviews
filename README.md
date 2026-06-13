@@ -1,15 +1,30 @@
 This repository contains important topic wise problems and patterns for DSA interviews
 
-## Intervals 
+
+## Intervals
+
 | Problem | Pattern |
-|--------|--------|
-| [Insert Interval](https://leetcode.com/problems/insert-interval/) | Since the intervals are already sorted, First add all left-side non-overlapping intervals where intervals[i][1] < newInterval[0], then merge all overlapping intervals where `intervals[i][0] <= newInterval[1]`, and finally add the remaining right-side non-overlapping intervals.| 
-| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | First we sort by start time so that intervals which can overlap come next to each other, then keep merging whenever `res[-1][1] >= start`, otherwise append a new interval because it does not overlap with the previous merged one |
-| [non-overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | We sort by end time because when two intervals overlap, keeping the one that finishes earlier leaves more room for the remaining intervals, which helps minimize removals. and whenever the current interval starts before last_end, it overlaps so we remove it; otherwise, we keep it and update `last_end = end` | 
-| [Meeting Rooms 2](https://neetcode.io/problems/meeting-schedule-ii/question) | Use a sweep line approach by sorting all start times and end times separately, then move two pointers through them, increasing the active room count when a meeting starts before the earliest current meeting ends and decreasing it when a meeting ends, while tracking the maximum active count as the minimum number of rooms required.|
-| [Minimum Number of Platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | Use the same sweep line idea by sorting all train arrival and departure times separately, then move two pointers through them, increasing the platform count when a train arrives before the earliest departing train leaves and decreasing it when a train departs, while tracking the maximum active count as the minimum number of platforms required. |
-| [My Calender II](https://leetcode.com/problems/my-calendar-ii/description/?envType=problem-list-v2&envId=52dlem1s) | |
-| [Minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) | | 
+|--------|---------|
+| [Insert Interval](https://leetcode.com/problems/insert-interval/) | Add intervals before `newInterval`, merge all overlaps, then add the remaining intervals. |
+| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Sort by start; if current overlaps with `res[-1]`, merge, else append as new interval. |
+| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Sort by end; keep the interval ending earliest and remove intervals that start before `last_end`. |
+| [Meeting Rooms 2](https://neetcode.io/problems/meeting-schedule-ii/question) | Sort starts and ends separately; use two pointers to track active meetings and max rooms needed. |
+| [Minimum Number of Platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | Sort arrivals and departures; use two pointers to track active trains and max platforms needed. |
+| [My Calendar II](https://leetcode.com/problems/my-calendar-ii/description/?envType=problem-list-v2&envId=52dlem1s) | Track single bookings and double bookings; reject if new event overlaps any double booking. |
+| [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) | Sort by end; shoot at earliest end, and use a new arrow only when next balloon starts after it. |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/) | Use sweep line with passenger changes at pickup/drop points; ensure running passengers never exceed capacity. |
+
+
+## Sliding Window 
+
+
+| Problem | Pattern |
+|--------|---------|
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding window + hashmap count; add `s[r]`, and while `hmap[s[r]] > 1`, shrink from `l`, then update `max_len = max(max_len, r-l+1)`. |
+
+
+
+
 
 ## Binary Search in Rotated Sorted Array 
 | Problem | Pattern |
